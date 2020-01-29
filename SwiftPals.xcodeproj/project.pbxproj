@@ -16,6 +16,7 @@
 		8076B45923E1B6A2000F9AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8076B45723E1B6A2000F9AE2 /* Main.storyboard */; };
 		8076B45B23E1B6A3000F9AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8076B45A23E1B6A3000F9AE2 /* Assets.xcassets */; };
 		8076B45E23E1B6A3000F9AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8076B45C23E1B6A3000F9AE2 /* LaunchScreen.storyboard */; };
+		8076B46423E1B83A000F9AE2 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076B46323E1B83A000F9AE2 /* DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		8076B45A23E1B6A3000F9AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8076B45D23E1B6A3000F9AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8076B45F23E1B6A3000F9AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8076B46323E1B83A000F9AE2 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				8076B43423E1B617000F9AE2 /* SwiftPals.h */,
 				8076B43523E1B617000F9AE2 /* Info.plist */,
+				8076B46323E1B83A000F9AE2 /* DateFormatter.swift */,
 			);
 			path = SwiftPals;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				TargetAttributes = {
 					8076B43023E1B617000F9AE2 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					8076B43923E1B617000F9AE2 = {
 						CreatedOnToolsVersion = 11.3;
@@ -263,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8076B46423E1B83A000F9AE2 /* DateFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +442,7 @@
 		8076B44623E1B617000F9AE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 53D6SDG83P;
@@ -453,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alice.SwiftPals;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +468,7 @@
 		8076B44723E1B617000F9AE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 53D6SDG83P;
@@ -485,6 +493,7 @@
 		8076B44923E1B617000F9AE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53D6SDG83P;
 				INFOPLIST_FILE = SwiftPalsTests/Info.plist;
@@ -503,6 +512,7 @@
 		8076B44A23E1B617000F9AE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53D6SDG83P;
 				INFOPLIST_FILE = SwiftPalsTests/Info.plist;
