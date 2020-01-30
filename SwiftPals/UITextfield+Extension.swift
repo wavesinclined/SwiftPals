@@ -11,7 +11,7 @@ import UIKit
 
 extension UITextField {
 
-   open func checkMaxLength(maxLength: Int, inputString: String) -> Bool {
+   public func checkMaxLength(maxLength: Int, inputString: String) -> Bool {
         guard let prospectiveText = self.text else {
             return true
         }
@@ -31,7 +31,7 @@ extension UITextField {
 
 }
 
-class UnderlinedTextField: UITextField {
+public class UnderlinedTextField: UITextField {
     
     private let defaultUnderlineColor = UIColor.black
     private let bottomLine = UIView()
