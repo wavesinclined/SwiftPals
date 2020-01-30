@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SwiftPals"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.0"
   spec.summary      = "Helpers and Extension for Swift and UIKit."
 
   # This description is used to generate tags and improve search results.
@@ -82,7 +82,7 @@ This pod includes helper functions and extension which are common in any swift p
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://wavesinclined/SwiftPals.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/wavesinclined/SwiftPals.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,7 +93,7 @@ This pod includes helper functions and extension which are common in any swift p
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SwiftPals/**/*.{h,m,swift}"
+  spec.source_files  = "SwiftPals/*.swift"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
