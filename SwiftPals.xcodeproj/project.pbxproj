@@ -18,6 +18,7 @@
 		8076B45E23E1B6A3000F9AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8076B45C23E1B6A3000F9AE2 /* LaunchScreen.storyboard */; };
 		8076B46423E1B83A000F9AE2 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076B46323E1B83A000F9AE2 /* DateFormatter.swift */; };
 		8084BF7823E2F0AC008B7FA1 /* ResuableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084BF7723E2F0AC008B7FA1 /* ResuableViews.swift */; };
+		8084BF7A23E2F370008B7FA1 /* UITextfield+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8084BF7923E2F370008B7FA1 /* UITextfield+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8076B45F23E1B6A3000F9AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8076B46323E1B83A000F9AE2 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		8084BF7723E2F0AC008B7FA1 /* ResuableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResuableViews.swift; sourceTree = "<group>"; };
+		8084BF7923E2F370008B7FA1 /* UITextfield+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextfield+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				8076B43523E1B617000F9AE2 /* Info.plist */,
 				8076B46323E1B83A000F9AE2 /* DateFormatter.swift */,
 				8084BF7723E2F0AC008B7FA1 /* ResuableViews.swift */,
+				8084BF7923E2F370008B7FA1 /* UITextfield+Extension.swift */,
 			);
 			path = SwiftPals;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8084BF7A23E2F370008B7FA1 /* UITextfield+Extension.swift in Sources */,
 				8076B46423E1B83A000F9AE2 /* DateFormatter.swift in Sources */,
 				8084BF7823E2F0AC008B7FA1 /* ResuableViews.swift in Sources */,
 			);
