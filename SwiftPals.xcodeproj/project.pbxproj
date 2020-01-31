@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8067022423E41B7F00FC306B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8067022323E41B7F00FC306B /* UIColor+Extension.swift */; };
 		8076B43B23E1B617000F9AE2 /* SwiftPals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8076B43123E1B617000F9AE2 /* SwiftPals.framework */; };
 		8076B44023E1B617000F9AE2 /* SwiftPalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076B43F23E1B617000F9AE2 /* SwiftPalsTests.swift */; };
 		8076B44223E1B617000F9AE2 /* SwiftPals.h in Headers */ = {isa = PBXBuildFile; fileRef = 8076B43423E1B617000F9AE2 /* SwiftPals.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8067022323E41B7F00FC306B /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		8076B43123E1B617000F9AE2 /* SwiftPals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8076B43423E1B617000F9AE2 /* SwiftPals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftPals.h; sourceTree = "<group>"; };
 		8076B43523E1B617000F9AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				8076B43423E1B617000F9AE2 /* SwiftPals.h */,
 				8076B43523E1B617000F9AE2 /* Info.plist */,
 				8076B46323E1B83A000F9AE2 /* DateFormatter.swift */,
+				8067022323E41B7F00FC306B /* UIColor+Extension.swift */,
 				8084BF7B23E2FA91008B7FA1 /* JSONHelper.swift */,
 				8084BF7723E2F0AC008B7FA1 /* ResuableViews.swift */,
 				8084BF7923E2F370008B7FA1 /* UITextfield+Extension.swift */,
@@ -280,6 +283,7 @@
 				8084BF7C23E2FA91008B7FA1 /* JSONHelper.swift in Sources */,
 				8076B46423E1B83A000F9AE2 /* DateFormatter.swift in Sources */,
 				8084BF7823E2F0AC008B7FA1 /* ResuableViews.swift in Sources */,
+				8067022423E41B7F00FC306B /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

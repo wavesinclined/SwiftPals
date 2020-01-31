@@ -11,7 +11,7 @@ import UIKit
 
 extension UITextField {
 
-   public func checkMaxLength(maxLength: Int, inputString: String) -> Bool {
+   public func swiftPalsCheckMaxLength(maxLength: Int, inputString: String) -> Bool {
         guard let prospectiveText = self.text else {
             return true
         }
@@ -29,36 +29,4 @@ extension UITextField {
         return false
     }
 
-}
-
-public class UnderlinedTextField: UITextField {
-    
-    private let defaultUnderlineColor = UIColor.black
-    private let bottomLine = UIView()
-
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        
-        borderStyle = .none
-        bottomLine.translatesAutoresizingMaskIntoConstraints = false
-        bottomLine.backgroundColor = defaultUnderlineColor
-
-        self.addSubview(bottomLine)
-        bottomLine.topAnchor.constraint(equalTo: self.bottomAnchor, constant: 1).isActive = true
-        bottomLine.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
-        bottomLine.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
-        bottomLine.heightAnchor.constraint(equalToConstant: 1).isActive = true
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    public func setUnderlineColor(color: UIColor) {
-        bottomLine.backgroundColor = color
-    }
-
-    public func setDefaultUnderlineColor() {
-        bottomLine.backgroundColor = defaultUnderlineColor
-    }
 }

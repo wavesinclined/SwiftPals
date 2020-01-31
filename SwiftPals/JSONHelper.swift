@@ -8,7 +8,7 @@
 
 import Foundation
 
-open class JSONHelper<T: Codable> {
+open class SwiftPalsJSONHelper<T: Codable> {
     
    open class func decodeData(_ data: Data?) -> T? {
         guard let data = data else {
@@ -24,8 +24,8 @@ open class JSONHelper<T: Codable> {
     }
     
     open class func getLocalJSONObject(_ localJSON: String) -> T? {
-        let data = JSONHelper.getLocalJSON(localJSON)
-        return JSONHelper.decodeData(data)
+        let data = SwiftPalsJSONHelper.getLocalJSON(localJSON)
+        return SwiftPalsJSONHelper.decodeData(data)
     }
     
     open class func getLocalJSON(_ localJSON: String) -> Data? {
@@ -39,7 +39,7 @@ open class JSONHelper<T: Codable> {
     open class func decodeData(_ data: Any?) throws -> T? {
         if let dict = data as? [String: Any] {
             let data = try JSONSerialization.data(withJSONObject: dict, options: [])
-            return JSONHelper.decodeData(data)
+            return SwiftPalsJSONHelper.decodeData(data)
         }
         return nil
     }

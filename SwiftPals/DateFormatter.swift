@@ -9,7 +9,7 @@
 
 import Foundation
 
-public final class DateFormatterHelper {
+public final class SwiftPalsDateFormatter {
     
     private class func timestampConverter(_ timestamp: Double) -> Date {
         return Date(timeIntervalSince1970: TimeInterval(timestamp / 1000))
