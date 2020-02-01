@@ -23,17 +23,20 @@ open class SwiftPalsInfoPlist {
        }()
     
     open class func getValue(key: String, forType: SwiftPalsPListValueType) -> Any {
+        var value: Any = ""
         switch forType {
         case .boolean:
             guard let boolValue = infoDictionary[key] as? Bool else {
                 fatalError("SwiftPals Error: - key is not set in plist")
             }
-            return boolValue
+           value = boolValue
+            
         case .string:
             guard let stringValue = infoDictionary[key] as? String else {
                 fatalError("SwiftPals Error: - key is not set in plist")
             }
-            return stringValue
+           value = stringValue
         }
+        return value
     }
 }
