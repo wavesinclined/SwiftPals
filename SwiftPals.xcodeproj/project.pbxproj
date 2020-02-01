@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8010C92F23E578600084A8D1 /* InfoPlistHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8010C92E23E578600084A8D1 /* InfoPlistHelpers.swift */; };
 		8067022423E41B7F00FC306B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8067022323E41B7F00FC306B /* UIColor+Extension.swift */; };
 		8067022623E4324800FC306B /* CameraAccessibilty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8067022523E4324800FC306B /* CameraAccessibilty.swift */; };
 		8076B43B23E1B617000F9AE2 /* SwiftPals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8076B43123E1B617000F9AE2 /* SwiftPals.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8010C92E23E578600084A8D1 /* InfoPlistHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPlistHelpers.swift; sourceTree = "<group>"; };
 		8067022323E41B7F00FC306B /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		8067022523E4324800FC306B /* CameraAccessibilty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAccessibilty.swift; sourceTree = "<group>"; };
 		8076B43123E1B617000F9AE2 /* SwiftPals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 				8076B46323E1B83A000F9AE2 /* DateFormatter.swift */,
 				8067022323E41B7F00FC306B /* UIColor+Extension.swift */,
 				8084BF7B23E2FA91008B7FA1 /* JSONHelper.swift */,
+				8010C92E23E578600084A8D1 /* InfoPlistHelpers.swift */,
 				8084BF7723E2F0AC008B7FA1 /* ResuableViews.swift */,
 				8084BF7923E2F370008B7FA1 /* UITextfield+Extension.swift */,
 				8067022523E4324800FC306B /* CameraAccessibilty.swift */,
@@ -285,6 +288,7 @@
 				8084BF7A23E2F370008B7FA1 /* UITextfield+Extension.swift in Sources */,
 				8084BF7C23E2FA91008B7FA1 /* JSONHelper.swift in Sources */,
 				8076B46423E1B83A000F9AE2 /* DateFormatter.swift in Sources */,
+				8010C92F23E578600084A8D1 /* InfoPlistHelpers.swift in Sources */,
 				8084BF7823E2F0AC008B7FA1 /* ResuableViews.swift in Sources */,
 				8067022423E41B7F00FC306B /* UIColor+Extension.swift in Sources */,
 				8067022623E4324800FC306B /* CameraAccessibilty.swift in Sources */,
