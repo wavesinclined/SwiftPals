@@ -4,7 +4,7 @@
 # How to install SwiftPals 
 
 ```
- pod 'SwiftPals', '~>0.1.0'
+ pod 'SwiftPals', :git => 'https://github.com/wavesinclined/SwiftPals.git', :branch => 'master'
 
 ```
 
